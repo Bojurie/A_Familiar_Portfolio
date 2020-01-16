@@ -1,0 +1,275 @@
+.contact {
+  /* padding: 20px auto; */
+}
+
+.contact h1{
+  padding: 10px 10px 10px 0;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  font-weight: normal;
+  text-align: left;
+  font-size: 1.5em;
+  
+}
+
+.contact p{
+  padding-bottom: 20px;
+  line-height: 1.5;
+  letter-spacing: .6px;
+  text-align: left;
+  font-size: 14px;
+}
+/* .form {
+  display: flex;
+} */
+
+.ContactForm {
+  margin: 0;
+  float: left;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.ContactForm {
+  overflow: hidden;
+}
+
+.contact-detail {
+    margin: 0;
+    float: left;
+    width: 100%;
+    padding-top: 20px;
+
+}
+
+.ContactForm {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  clear: both;
+  width: 100%;
+}
+
+form {
+  margin: 0;
+}
+.ContactForm form .singles {
+  margin: 0;
+  overflow: hidden;
+}
+
+.ContactForm form .singles>div {
+  margin: 0 0 25px;
+}
+.ContactForm .singles>div {
+  width: 100%;
+  margin: 0 0 25px;
+  position: relative;
+  overflow: hidden;
+}
+
+.ContactForm div {
+  float: left;
+  clear: both;
+ 
+}
+
+.singles {
+  width: 100%;
+  margin: 0 0 25px;
+  position: relative;
+  overflow: hidden;
+}
+
+.ContactForm LABEL {
+  position: absolute;
+  left: -999em;
+  top: -999em;
+  float: left;
+  padding: 15px 10px;
+  text-transform: capitalize;
+  line-height: 15px;
+}
+
+.ContactForm LABEL {
+  width: 54px;
+  vertical-align: top;
+  display: inline-block;
+  text-transform: uppercase;
+  padding-top: 0.2em;
+}
+
+.ContactForm input {
+  margin: 0;
+  line-height: 15px;
+  height: 45px;
+  padding: 15px 10px;
+}
+
+.ContactForm INPUT {
+  -moz-box-sizing: border-box;
+  /* display: inline-block; */
+  width: 100%;
+  background: none;
+  border: 1px solid #010101;
+  box-shadow: none;
+  border-radius: 0;
+  float: left;
+  color: #818181;
+}
+
+.ContactForm .status {
+  float: left;
+  margin: 0 0 0 -45px;
+  width: 45px;
+  overflow: hidden;
+  /* display: inline-block; */
+  text-indent: -999em;
+}
+
+.ContactForm .status>span {
+  line-height: 45px;
+}
+
+.ContactForm .status {
+  float: left;
+  margin: 0 0 0 -45px;
+  width: 45px;
+  overflow: hidden;
+  /* display: inline-block; */
+  text-indent: -999em;
+}
+
+.indicator {
+  float: left;
+}
+.ContactForm .valid .indicator {
+  background: none !important;
+}
+.ContactForm .indicator {
+  margin: 0;
+  padding: 0;
+  width: 45px;
+  height: 45px;
+  display: block;
+  text-indent: 0;
+}
+.ContactForm .indicator {
+  position: relative;
+}
+
+.ContactForm .invalid {
+  color: #822b2b;
+}
+/* .ContactForm .invalid {
+  color: #933;
+} */
+.ContactForm .invalid, .ContactForm .valid {
+  display: none;
+}
+
+
+
+
+@media only screen and (min-width: 769px){
+.ContactForm .submit {
+    width: 60%;
+    }
+  }
+.ContactForm .submit {
+    width: 100%;
+    float: right;
+    clear: none;
+}
+.ContactForm form>div {
+    margin: 0 0 25px;
+}
+
+
+.ContactForm textarea {
+  padding: 10px;
+  height: 115px;
+  min-height: 115px;
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  background: none;
+  border: 1px solid #010101;
+  box-shadow: none;
+  border-radius: 0;
+  /* float: left; */
+  color: #818181;
+}
+.ContactForm .note {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  float: right;
+  clear: none;
+}
+
+.status {
+  /* float: left; */
+  margin: 0 0 0 -45px;
+  width: 45px;
+  overflow: hidden;
+  display: inline-block;
+  text-indent: -999em;
+}
+
+.ContactForm .note .status {
+  margin: 0 0 0 -48px;
+}
+
+
+
+.ContactForm .indicator {
+  margin: 0;
+  padding: 0;
+  width: 45px;
+  height: 45px;
+  display: block;
+  text-indent: 0;
+}
+
+.ContactForm .valid .indicator, .ContactForm .invalid .indicator {
+  float: left;
+}
+.ContactForm .valid .indicator {
+  background: none !important;
+}
+.ContactForm .valid .indicator {
+  background-color: #b0cc9f;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.ContactForm .status>span {
+  line-height: 45px;
+}
+
+.submit {
+  width: 100%;
+  float: right;
+  clear: none;
+}
+
+.send {
+  color: #818181;
+  width: 100%;
+  font-size: 1em;
+  border: none;
+  text-indent: 10px;
+  padding: 3px 0 0;
+  line-height: 42px;
+  margin-left: 5px;
+  background:#b3b3b3;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.send:hover {
+  background: rgb(114, 114, 114);
+  color:rgb(230, 230, 230);
+}
