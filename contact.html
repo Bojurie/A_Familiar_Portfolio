@@ -16,7 +16,7 @@
 
     <header class="header">
       <div class="header_nav-wrapper">
-          <h1><a href="index.html">family Album</a></h1>
+          <h1><a href="index.html">Album</a></h1>
       </div>
     </header>
     
@@ -33,7 +33,55 @@
             <h1>Contact Bojurie Rogers-Wright</h1>
             <p>If you are looking to touch base casually with Bojurie, <a href="https://www.instagram.com/bojuriescode/" target="blank">Instagram</a>  is where he devotes his time to replying to inquiries not related to the concerns of clients—alternately feel free to leave a comment on a relevant topic. For other questions and business inquiries, please email Bojurie, using the form below.:</p>
         </div>
-        <div data-ordinal="1" class="widget ContactForm">
+        <div class="contact-form">
+            <form action="mailto:bojurier@gmail.com" method="POST" enctype="text/plain">
+                <div class="input">
+                    <div class="name">
+                        <label for="">Name</label>
+                        <input type="text" rel="Full Name" placeholder="Name" value="" name="name" required>
+                        <span class="status"> 
+                            <span class="valid"><span class="indicator"></span></span>
+                            <span class="invalid"><span class="indicator"></span>Please enter your name.</span>
+                            <span class="indicator"></span>
+                        </span>
+                    </div>
+
+                    <div class="email">
+                        <label>Email</label>
+                        <input type="email" rel="Email Address" placeholder="Email" value="" name="email" required="">
+                        <span class="status"> 
+                            <span class="valid"><span class="indicator"></span></span>
+                            <span class="invalid"><span class="indicator"></span>Please enter a valid email address.</span>
+                            <span class="indicator"></span>
+                        </span>
+                    </div>
+
+                    <div class="phone">
+                        <label>Phone</label>
+                        <input type="phone" rel="Phone Number" placeholder="Phone" value="" name="phone">
+                    </div>
+                    <span class="status"> 
+                            <span class="valid"><span class="indicator"></span></span>
+                            <span class="invalid"><span class="indicator"></span>Please enter your phone number.</span>
+                            <span class="indicator"></span>
+                        </span>
+                </div>
+
+                <div class="message">
+                    <label>Note</label>
+                    <textarea name="msg" placeholder="Note" required=""></textarea>
+                    <span class="status"> 
+                </div>
+                <div class="submit">
+                    <label></label><button data-act="send" class="send">Send</button>
+                </div>
+
+                
+
+            </form>
+
+        </div>
+        <!-- <div data-ordinal="1" class="widget ContactForm">
             <form action="mailto:bojurier@gmail.com" method="POST" enctype="text/plain">
                 <div class="singles">
                     <div class="name">
@@ -57,11 +105,7 @@
                     <div class="phone">
                         <label>Phone</label>
                         <input type="phone" rel="Phone Number" placeholder="Phone" value="" name="phone">
-                        <!--span class="status"> 
-                            <span class="valid"><span class="indicator"></span></span>
-                            <span class="invalid"><span class="indicator"></span>Please enter a valid phone number.</span>
-                            <span class="indicator"></span>
-                        </span-->
+                     
                     </div>
                 </div>
                     <div class="note">
@@ -73,7 +117,7 @@
                             <span class="indicator"></span>
                         </span>
                     </div>
-                    <!-- Captcha -->
+                    
                     <div class="submit">
                         <label></label><button data-act="send" class="send">Send</button>
                     </div>
@@ -84,13 +128,13 @@
                 <div class="sent">
                     Message sent!  Thanks for your interest.
                 </div>
-        </div>
+        </div> -->
     </main>
     <footer>
         <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1560896270280_31772">
             <div class="sqs-block-content">
                 <p style="text-align:right;white-space:pre-wrap;" class="">BOJURIE ROGERS-WRIGHT<br>
-                 <a href="mailto:bojurier@gmail.com" target="_blank">BOJURIER@GMAIL.COM</a>
+                    <a href="mailto:beautifulresponsiveweb@gmail.com" target="_blank">BEAUTIFULRESPONSIVEWEB@GMAIL.COM</a>
                 </p>
                 <p style="text-align:right;white-space:pre-wrap;" class="">REPRESENTATION:
                     <br>+1 949 -&nbsp;205 - 8019<br>
@@ -99,6 +143,6 @@
             </div>
         </div>
     </footer>
-</div>
+  </div>
 </body>
 </html>

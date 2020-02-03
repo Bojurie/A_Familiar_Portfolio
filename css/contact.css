@@ -1,5 +1,10 @@
+
+
+main {
+  /* display: inline-block; */
+}
 .contact {
-  /* padding: 20px auto; */
+  padding: 20px auto;
 }
 
 .contact h1{
@@ -7,7 +12,7 @@
   letter-spacing: 1px;
   line-height: 1.5;
   font-weight: normal;
-  text-align: left;
+  text-align: center;
   font-size: 1.5em;
   
 }
@@ -19,14 +24,35 @@
   text-align: left;
   font-size: 14px;
 }
-/* .form {
-  display: flex;
-} */
 
-.ContactForm {
+.contact-form {
+  
+ 
+}
+
+.input{
+  float: left;
+}
+
+.note {
+  /* float: right; */
+    padding: 10px;
+  height: 115px;
+  min-height: 115px;
+  /* display: inline-block; */
+  width: 100%;
+  padding: 0;
+  background: none;
+  border: 1px solid #010101;
+  box-shadow: none;
+  border-radius: 0;
+  color: #818181;
+}
+
+/* .ContactForm {
   margin: 0;
   float: left;
-  width: 100%;
+  width: 50%;
   padding-top: 20px;
 }
 
@@ -109,7 +135,6 @@ form {
 
 .ContactForm INPUT {
   -moz-box-sizing: border-box;
-  /* display: inline-block; */
   width: 100%;
   background: none;
   border: 1px solid #010101;
@@ -124,7 +149,6 @@ form {
   margin: 0 0 0 -45px;
   width: 45px;
   overflow: hidden;
-  /* display: inline-block; */
   text-indent: -999em;
 }
 
@@ -137,7 +161,6 @@ form {
   margin: 0 0 0 -45px;
   width: 45px;
   overflow: hidden;
-  /* display: inline-block; */
   text-indent: -999em;
 }
 
@@ -162,9 +185,7 @@ form {
 .ContactForm .invalid {
   color: #822b2b;
 }
-/* .ContactForm .invalid {
-  color: #933;
-} */
+
 .ContactForm .invalid, .ContactForm .valid {
   display: none;
 }
@@ -198,7 +219,6 @@ form {
   border: 1px solid #010101;
   box-shadow: none;
   border-radius: 0;
-  /* float: left; */
   color: #818181;
 }
 .ContactForm .note {
@@ -210,7 +230,6 @@ form {
 }
 
 .status {
-  /* float: left; */
   margin: 0 0 0 -45px;
   width: 45px;
   overflow: hidden;
@@ -272,4 +291,4 @@ form {
 .send:hover {
   background: rgb(114, 114, 114);
   color:rgb(230, 230, 230);
-}
+} */

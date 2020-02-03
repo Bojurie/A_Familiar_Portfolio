@@ -1,3 +1,15 @@
-/* p{
+.row {
+  display: inline-block;
+}
+
+.overview-img {
+  width: 50%;
+  float: left;
+  padding: 30px;
+}
+
+.overview-para {
+  width: 50%;
   float: right;
-} */
+  padding: 50px;
+}
